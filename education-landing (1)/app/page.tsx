@@ -164,7 +164,7 @@ export default function EducationLanding() {
             >
               <div className="relative z-10">
                 <Image
-                  src="/placeholder.svg?height=600&width=500"
+                  src="/images/Studient1.jpg"
                   alt="Students learning"
                   width={500}
                   height={600}
@@ -359,7 +359,7 @@ export default function EducationLanding() {
                   transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" }}
                 >
                   <Image
-                    src="/placeholder.svg?height=300&width=250"
+                    src="/images/studient2.jpg"
                     alt="Students collaborating"
                     width={250}
                     height={300}
@@ -372,7 +372,7 @@ export default function EducationLanding() {
                   className="mt-8"
                 >
                   <Image
-                    src="/placeholder.svg?height=300&width=250"
+                    src="/images/studient3.jpg"
                     alt="Teacher explaining"
                     width={250}
                     height={300}
@@ -423,7 +423,7 @@ export default function EducationLanding() {
                 content:
                   "EduPrime Academy completely transformed my career. The hands-on projects and expert mentorship helped me land my dream job at a top tech company.",
                 rating: 5,
-                image: "/placeholder.svg?height=60&width=60",
+                image: "/images/Studient1.jpg",
               },
               {
                 name: "Michael Chen",
@@ -431,7 +431,7 @@ export default function EducationLanding() {
                 content:
                   "The curriculum is incredibly comprehensive and up-to-date. I gained practical skills that I use every day in my current role.",
                 rating: 5,
-                image: "/placeholder.svg?height=60&width=60",
+                image: "/images/studient2.jpg",
               },
               {
                 name: "Emily Rodriguez",
@@ -439,7 +439,7 @@ export default function EducationLanding() {
                 content:
                   "The flexibility of the program allowed me to learn while working full-time. The support from instructors was exceptional throughout my journey.",
                 rating: 5,
-                image: "/placeholder.svg?height=60&width=60",
+                image: "/images/studient3.jpg",
               },
             ].map((testimonial, index) => (
               <motion.div key={index} variants={scaleIn}>
